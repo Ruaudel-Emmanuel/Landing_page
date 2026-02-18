@@ -1,0 +1,36 @@
+{
+  "colors": {
+    "background": "#05070B",
+    "primary": "#FFD521",
+    "textOnDark": "#FFFFFF",
+    "cardBackground": "#F7F7F7",
+    "textOnLight": "#111111"
+  },
+  "typography": {
+    "headingFamily": "\"IBM Plex Mono\", monospace",
+    "bodyFamily": "\"Inter\", system-ui, sans-serif",
+    "baseFontSize": "16px",
+    "headingScale": {
+      "h1": "3rem",
+      "h2": "2.25rem",
+      "h3": "1.5rem"
+    }
+  },
+  "elevation": {
+    "cardRadius": "16px",
+    "cardShadow": "0 20px 40px rgba(0, 0, 0, 0.2)"
+  },
+  "components": {
+    "buttonPrimary": {
+      "background": "{colors.primary}",
+      "textColor": "{colors.textOnDark}",
+      "borderRadius": "4px"
+    },
+    "card": {
+      "background": "{colors.cardBackground}",
+      "textColor": "{colors.textOnLight}",
+      "radius": "{elevation.cardRadius}",
+      "shadow": "{elevation.cardShadow}"
+    }
+  }
+}
